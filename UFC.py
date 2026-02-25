@@ -13,9 +13,9 @@ restaurants = [
     "Moku Hawaiian Grill"
 ]
 
-st.set_page_config(page_title="Fast Food Roulette 🍔🌮", layout="centered")
+st.set_page_config(page_title="Fight Night Roulette 🍔🌮", layout="centered")
 
-st.title("🍔🌮 Fast Food Roulette 🌮🍔")
+st.title("🍔🌮 Fight Night Roulette 🌮🍔")
 st.markdown("When the group is hangry and nobody wants to decide.")
 
 if st.button("🎲 SPIN THE WHEEL!", type="primary", use_container_width=True, help="May the odds be ever in your flavor"):
@@ -43,4 +43,5 @@ if st.button("🎲 SPIN THE WHEEL!", type="primary", use_container_width=True, h
     st.balloons()
 
 st.markdown("---")
+
 st.caption("Made for quick group decisions • Share this page!")
